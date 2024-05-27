@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeetsons</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="/logo.png" type="image/x-icon">
+    <meta name="description" content="The Year's 2062 and the Jeetsons have evolved into the God tier Dumpers of the Crypto Market.">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+</head>
+<style>
+        body{
+            overflow-x: hidden;
+        }
+
+        /* Style the scrollbar */
+        ::-webkit-scrollbar {
+            width: 2px; /* Width of the scrollbar */
+        }
+
+        /* Track */
+        ::-webkit-scrollbar-track {
+            background: #FFF6E2; /* Color of the track */
+        }
+
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #2167ff; /* Color of the handle */
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #555; /* Color of the handle on hover */
+        }
+
+    @font-face {
+        font-family: texts;
+        src: url(/textss.ttf);
+    }
+    .font-texts{
+        font-family: texts;
+    }
+    html, body{
+        scroll-behavior: smooth;
+    }
+    @keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.floating-element {
+    position: relative;
+    animation: floatAnimation 3s infinite ease-in-out;
+  }
+
+  /* Keyframes for the floating animation */
+  @keyframes floatAnimation {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+.pulse {
+  animation-name: pulse;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+html, body{
+    overflow-x: hidden;
+}
+/* Existing CSS styles */
+body {
+    overflow-x: hidden;
+}
+
+/* Styles for the sky and stars */
+.sky {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1; /* Ensure it is behind other elements */
+}
+
+.star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 0 30px white;
+    animation: twinkle 2s infinite alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 80;
+    }
+}
+
+@font-face {
+    font-family: head;
+    src: url(/text.ttf);
+}
+.head{
+    font-family: head;
+}
+
+</style>
+<body class="" style="background-image: url(bg.jpg); background-size: cover;">
+    <div class="sky"></div>
+    <nav class="flex justify-between items-center p-4 md:p-6 md:mx-6">
+            <div>
+                    <img src="logo.png" class="pulse w-18 md:w-40" alt="">
+            </div>
+            <div>
+                <ul class="flex font-texts text-white text-sm md:text-3xl items-center justify-center space-x-2 md:space-x-4">
+                   
+                   <a href="#abt"> <li>About</li></a>
+
+                   <a href="#token" class="hidden md:flex"> <li>Tokenomics</li></a>
+                   <a href="#map"> <li>Roadmap</li></a>
+               
+                </ul>
+            </div>
+              <!-- <div class="space-x-1 flex">
+                <a href="">
+                    <img src="/radi.png" class="w-8" alt="">
+                </a>
+                <a href="">
+                    <img src="/sol.png" class="w-8" alt="">
+                </a>
+                  <a href="">
+                    <img src="/x.png" class="w-8" alt="">
+                </a>
+                <a href="">
+                    <img src="/tg.png" class="w-8" alt="">
+                </a>
+                <a href="">
+                    <img src="/pink.png" class="w-8" alt="">
+                </a>
+            </div> -->
+                <div class="text-white text-xl font-texts">
+                    <a class="" href="https://app.uniswap.org/swap?outputCurrency=0x2B783407F17e10566e2bFF86A31eC1765275d719&chain=mainnet">
+                      Buy Now
+                    </a>
+                </div>
+        </nav>
+        <section class=" w-screen relative h-fit " >
+            <div class="flex justify-center items-center">
+                <img src="/home-logo.PNG" class="-z-20 pulse absolute w-[200px] top-[13px] md:w-[490px]  md:top-[-2rem]" alt="">
+            </div>
+                <img src="/home-1.png" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="500" class="py-12 md:py-4 w-screen" alt="">
+                <div class="flex justify-center items-center">
+                <img src="/new-1.png" class="absolute car-2 floating-element w-[220px] md:w-[500px] top-[90px] md:top-[150px]" alt="">
+            </div>
+        </section>
+        <section  class=" w-screen h-fit absolute top-[19rem] md:top-[50rem] flex justify-center items-center"  data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500">
+          <div>
+            <img src="6.png" class="w-40 md:w-60" alt="">
+          </div>
+            <div class="md:w-[40rem] w-80 head text-center text-white bg-cover border-2 border-white p-2 md:p-8 h-fit  md:h-fit  bg-[url('./bg-1.jpg')]">
+          
+                <p>The Year's 2062 and the Jeetsons have evolved into the God tier Dumpers of the Crypto Market, Buyers Beware their bags are ready To be Jeeted.</p>
+            </div>
+        </div>
+            <!-- <img id="abt" src="/about.png" 
+            data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1000" class=" w-screen absolute -top-12 md:-top-[10rem]" alt=""> -->
+    </section>
+
+    <!-- Mobile -->
+    <section  class="md:hidden h-fit relative mt-6 flex justify-center items-center">
+        <img  data-aos="fade-left"
+     data-aos-easing="linear"
+     data-aos-duration="500"  src="/new-token.png" class="" alt="">
+     <img src="/new-2.png" class="car top-[14rem] w-32" alt="">
+</section>
+<section  class=" w-screen h-fit hidden relative top-80 md:flex ">
+    <div  class="grid md:grid-cols-1 ">
+        <div  data-aos="fade-up"
+     data-aos-easing="linear"
+     data-aos-duration="1000" >
+            <img  id="token" src="/new-token.png" class="w-screen" alt="">
+            <img src="/new-2.png" class="car top-[50rem] w-[400px]" alt="">
+        </div>
+<style>
+    @keyframes drive {
+    0% {
+        transform: translateX(-0);
+    }
+    50% {
+        transform: translateX(100vw);
+    }
+    50.01% {
+        transform: scaleX(-1); /* Flip the image horizontally */
+    }
+    100% {
+        transform: translateX(0) scaleX(-1); /* Maintain the flipped state */
+    }
+}
+
+@keyframes driveBack {
+    0% {
+        transform: translateX(100vw) scaleX(-1); /* Start flipped */
+    }
+    100% {
+        transform: translateX(0); /* Move back to the start */
+    }
+}
+
+.car {
+    position: absolute;
+   /* Adjust size as needed */
+    animation: drive 10s linear infinite;
+}
+
+@keyframes driveone {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-100vw);
+    }
+    50.01% {
+        transform: scaleX(1); /* Flip the image horizontally */
+    }
+    100% {
+        transform: translateX(0) scaleX(1); /* Maintain the flipped state */
+    }
+}
+
+@keyframes driveBack {
+    0% {
+        transform: translateX(100vw) scaleX(-1); /* Start flipped */
+    }
+    100% {
+        transform: translateX(0); /* Move back to the start */
+    }
+}
+
+.car-2 {
+    position: absolute;
+   /* Adjust size as needed */
+    animation: driveone 10s linear infinite;
+}
+</style>
+        
+    </div>
+</section>
+<!-- sITEMAP -->
+<section  data-aos="fade-down" 
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="w-screen h-fit md:hidden flexjustify-center items-center">
+   
+     <img  src="/map-1.png" class="w-screen  " alt="">
+   
+</section>
+<section  class="w-screen  h-fit flex md:hidden relative z-[-1] -top-36 justify-center items-center">
+    <img  src="/how-1.png"  class="w-60 " alt="">
+</section>
+
+<section  class="w-screen
+ bg-cover hidden relative  md:flex flex-col justify-center items-center">
+    <!-- <img src="/bubble.png" class="relative -z-10 top-60" alt="">        -->
+ <div class="relative ">
+        
+            <img id="map" src="/map-1.png"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="500"  class="top-[4rem] w-screen relative" alt="">
+        
+        </div>
+</section>
+<!-- <section id="how"  class="w-screen
+ bg-cover hidden relative  md:flex  flex-col justify-center items-center">      
+ <div class="relative ">
+        
+            <img src="/how-1.png"  class="-top-[-200px] w-96 h-96 -z-10 relative" alt="">
+        </div>
+</section> -->
+
+
+
+
+
+    <section class="w-screen h-fit  bg-cover hidden md:block">      
+        <div class="">
+            <img src="last.JPG" class="relative -z-20 -top-12  w-screen" alt="">
+                  <!--  bOOKS -->
+            <div class="relative bottom-[700px] left-48 ">
+                <!-- <img src="/shelv.png" class="" alt="">
+                <img src="/flower.png" class=" -top-[210px] left-4 absolute " alt="">
+                -->
+                <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xc72a80f7734718622ac434d31087b39e68b0f068?t=1716787741179" >
+                <img src="/book-1.png" class="hover:-translate-y-4 duration-200 transition-all ease-linear -top-[210px] left-36 absolute " alt="">
+           
+            </a>
+            <a href="https://app.uniswap.org/swap?outputCurrency=0x2B783407F17e10566e2bFF86A31eC1765275d719&chain=mainnet">
+                <img src="/book-2.png" class="hover:-translate-y-4 duration-200 transition-all ease-linear -top-[210px] left-56 absolute " alt="">
+            </a>
+        </div>
+       
+        <!-- Books -2 -->
+        <div class="relative  bottom-[900px] left-[800px] ">
+            <!-- <img src="/shelf-2.png" class="" alt=""> -->
+            <a href="https://twitter.com/Thejeetsons_" class="">
+            <img src="/book-3.png" target="_blank"  class="hover:-translate-y-4 duration-200 transition-all ease-linear -top-[180px] left-6 absolute " alt="">
+        </a>
+        <a href="https://t.me/Jeetsons" target="_blank" class="hover:-translate-y-4 duration-200 transition-all ease-linear">
+            <img src="/book-4.png" class="hover:-translate-y-4 duration-200 transition-all ease-linear -top-[180px] left-28 absolute " alt="">
+        </a>
+        <!-- <a href="" target="_blank" class="">
+            <img src="/book-5.png" class="-top-[180px] hover:-translate-y-4 duration-200 transition-all ease-linear left-72 absolute " alt="">
+        </a> -->
+        </div>
+    </div>
+      
+    </section>
+    
+    <!-- end -->
+    
+       <section class="w-screen bg-cover flex  md:hidden flex-col justify-center items-center">      
+        <div class=" ">
+            <img src="/last.JPG" class="w-screen relative -top-[10rem] -z-20" alt="">
+
+            
+            <!-- <div class="relative bottom-[300px] left-16 ">
+              <img src="/shelv.png" class="w-32" alt="">
+             
+               <img src="/flower.png" class="w-8 -top-[55px] left-4 absolute hover:-translate-y-4 duration-200 transition-all ease-linear" alt="">
+              
+                <a href="https://twitter.com/DegenSmerfCoin" target="_blank">
+                <img src="/book-1.png" class="w-7 -top-[60px] left-12 absolute hover:-translate-y-4 duration-200 transition-all ease-linear" alt="">
+           
+            </a>
+            <a href="https://app.uniswap.org/swap?outputCurrency=0x2B783407F17e10566e2bFF86A31eC1765275d719&chain=mainnet" target="_blank">
+                <img src="/book-2.png" class="w-10 -top-[50px] left-[75px] absolute hover:-translate-y-4 duration-200 transition-all ease-linear" alt="">
+            </a>
+            </div>
+
+            
+            <div class="relative bottom-[400px] left-60 ">
+                <img src="/shelf-2.png" class="w-32" alt="">
+         
+                <a href="https://twitter.com/DegenSmerfCoin" target="_blank">
+                <img src="/book-3.png" class="w-8 -top-[55px] left-4 absolute hover:-translate-y-4 duration-200 transition-all ease-linear" alt="">
+            </a>
+            <a  href="https://t.me/degensmerfcoin" target="_blank">
+                <img src="/book-4.png" class="w-9 -top-[40px] left-12 absolute hover:-translate-y-4 duration-200 transition-all ease-linear" alt="">
+            </a>
+            <a href="https://dexscreener.com/ethereum/0xef069eff68b883a488455cf444013d8a77bf0fe6" target="_blank">
+                <img src="/book-5.png" class="w-9 -top-[50px] left-20 absolute hover:-translate-y-4 duration-200 transition-all ease-linear" alt="">
+            </a>
+            </div>   -->
+        </div>
+        <!-- <div class="">
+            <img src="/shelv.png" class="relative w-16 -bottom-32 -left-72" alt="">
+        </div>
+        <div class="absolute">
+            <img src="/flower.png" class="relative -bottom-[14rem] -left-[25rem]" alt="">
+            <a href="">
+            <img src="/book-1.png" class="relative bottom-[1rem] -left-[18rem]"  alt="">
+            
+</a>
+            <a href="">
+      
+                <img src="/book-2.png" class="relative bottom-[15rem] -left-[12rem]"  alt="">
+            </a>
+            </div> -->
+    </section>
+ 
+    <footer class="bg-transparent text-white py-4 relative md:-top-10 -top-16  p-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 place-items-center md:gap-y-8" data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="500">
+            <div class="justify-between items-center flex flex-col">
+                <img src="/logo.png" class="pulse w-32 md:w-52" alt="">
+            
+            </div>
+            <div class="flex-col flex">
+           
+               
+            <div class="space-x-1 mt-2 md:mt-0 flex flex-row justify-center items-center">
+                <!-- <a href="https://app.uniswap.org/swap?outputCurrency=0x2B783407F17e10566e2bFF86A31eC1765275d719&chain=mainnet" target="_blank">
+                    <img src="/radi.png" class="w-14 hover:-translate-y-4 duration-200 transition-all ease-linear" alt="">
+                </a> -->
+                <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xc72a80f7734718622ac434d31087b39e68b0f068?t=1713859363819" target="_blank">
+                    <img src="/sol.png" class="w-14 hover:-translate-y-4 duration-200 transition-all ease-linear " alt="">
+                </a>
+                  <a href="https://twitter.com/Thejeetsons_" target="_blank">
+                    <img src="/x.png" class="w-14 hover:-translate-y-4 duration-200 transition-all ease-linear " alt="">
+                </a>
+                <a href="https://t.me/Jeetsons" target="_blank">
+                    <img src="/tg.png" class="w-14 hover:-translate-y-4 duration-200 transition-all ease-linear " alt="">
+                </a>
+                <!-- <a href="https://dexscreener.com/ethereum/0xef069eff68b883a488455cf444013d8a77bf0fe6" target="_blank">
+                    <img src="/pink.png" class="w-14  hover:-translate-y-4 duration-200 transition-all ease-linear" alt="">
+                </a> -->
+               
+            </div>
+            <div class="mt-2">
+                <p class="head md:text-2xl text-center">CA <span class="font-texts">:</span>  0x2B783407F17e10566e2bFF86A31eC1765275d719 </p>
+            </div>
+        </div>
+        </div>
+    </footer>
+    
+    <script src="/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</body>
+</html>
